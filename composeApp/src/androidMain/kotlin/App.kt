@@ -37,7 +37,7 @@ fun App() {
 @Composable
 fun CardButton () {
     Column () {
-        Image(painterResource(Res.drawable.compose_multiplatform), null, modifier = Modifier.size(150.dp))
+        Image(painterResource(Res.drawable.compose_multiplatform), null, modifier = Modifier.size(10.dp))
         Text("Example Text")
     }
 }
